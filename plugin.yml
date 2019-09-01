@@ -1,0 +1,6 @@
+name: EwRanks121212
+version: 1.0
+main: com.ewmikey.MainRanks
+commands:
+  gm:
+  fly:
