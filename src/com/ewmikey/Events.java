@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Made by EwMikey with love from me
+=======
+//Made by EwMikey with love
+>>>>>>> 81979e9be1a7556826db254f7a2b56a3f72ef112
 
 package com.ewmikey;
 
