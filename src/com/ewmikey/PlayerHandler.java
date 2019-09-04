@@ -19,7 +19,6 @@ import org.bukkit.scoreboard.Team;
 public class PlayerHandler {
 	
 	int OWNER = 100;
-	int GAY = 99;
 	int ADMIN = 80;
 	int SR_MODERATOR = 60;
 	int MODERATOR = 50;

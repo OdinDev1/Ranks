@@ -23,6 +23,7 @@ public class Events implements Listener {
 		PlayerHandler = _PlayerHandler;
 	}
 	
+	//player join event, set rank, etc.
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent e) {
 
@@ -32,6 +33,7 @@ public class Events implements Listener {
 		PlayerHandler.refreshRanks();
 	}
 	
+	//prefix in chat
 	@EventHandler
 	public void onPlayerChat(AsyncPlayerChatEvent e) {
 		e.setCancelled(true);
@@ -41,6 +43,8 @@ public class Events implements Listener {
 		String message = e.getMessage();
 		Bukkit.broadcastMessage(prefix + ChatColor.GRAY + name + ChatColor.DARK_GRAY + ": " + ChatColor.RESET + message);
 	}
+	
+	// /rank command (s l o p p y)
 	@EventHandler
 	public void onCommand(PlayerCommandPreprocessEvent e) {
 		Player p = e.getPlayer();
